@@ -9,9 +9,8 @@ namespace ProEscola.Models
 {
     public class Matricula
     {   
-        //[ForeignKey]
-
-        [Key]
+        public int MatriculaId { get; set; }
+        public int AlunoId { get; set; }
         public string Data { get; set; }
         public int QtdeFaltas { get; set; }
         public double Nota { get; set; }

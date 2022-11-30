@@ -8,7 +8,7 @@ namespace ProEscola.Models
 {
     public class Curso
     {
-        [Key]
+        public int CursoId { get; set; }
         public string Sigla { get; set; }
         public string Nome { get; set; }
         public int CargaHoraria { get; set; }
@@ -16,7 +16,8 @@ namespace ProEscola.Models
         public string DataVigencia { get; set; }
         public double ValorHoraInstrutor { get; set; }
         public string Programa { get; set; }
-        public List<Turma> Turmas { get; set; }
+        //public List<Turma> Turmas { get; set; }
+        public ICollection<Turma> Turmas { get; set; }
 
         public Curso(string sigla, string nome)
         {

@@ -35,4 +35,3 @@ C:\Users\Marcio\source\repos\ProEscola\ProEscola\obj\Debug\net5.0\ProEscola.dll
 C:\Users\Marcio\source\repos\ProEscola\ProEscola\obj\Debug\net5.0\ref\ProEscola.dll
 C:\Users\Marcio\source\repos\ProEscola\ProEscola\obj\Debug\net5.0\ProEscola.pdb
 C:\Users\Marcio\source\repos\ProEscola\ProEscola\obj\Debug\net5.0\ProEscola.genruntimeconfig.cache
-C:\Users\Marcio\source\repos\ProEscola\ProEscola\obj\Debug\net5.0\ProEscola.csproj.AssemblyReference.cache

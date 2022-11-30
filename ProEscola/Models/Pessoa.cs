@@ -8,7 +8,6 @@ namespace ProEscola.Models
 {
     public abstract class Pessoa
     {
-        [Key]
         public string Cpf { get; set; }
         public string Nome { get; set; }
         public string DataNasc { get; set; }
